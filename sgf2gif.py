@@ -109,7 +109,7 @@ def ordered_moves(board, plays, start=1):
 @click.argument('sgf-file', type=click.File('rb'))
 @click.argument('gif-file', type=click.Path(dir_okay=False, writable=True))
 @click.option('-s', '--size', type=click.IntRange(128, 2048), default=512, show_default=True,
-    help='Starting and ending positions range limit')
+    help='Image size')
 @click.option('-r', '--range', 'prange', type=int, nargs=2,
     help='Starting and ending positions range')
 @click.option('-d', '--duration', type=float, default=3, show_default=True,

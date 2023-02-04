@@ -24,7 +24,7 @@ where:
 
 Options:
 
-    -s, --size INTEGER RANGE  Starting and ending positions range limit [default: 512; 128<=x<=2048]
+    -s, --size INTEGER RANGE  Image size [default: 512; 128<=x<=2048]
     -r, --range INTEGER...    Starting and ending positions range
     -d, --duration FLOAT      Pause between the moves, seconds  [default: 3]
     -n, --numbers             Show move numbers
