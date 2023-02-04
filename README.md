@@ -38,4 +38,4 @@ Generate a GIF file with numbered moves and 3 sec delay between each:
 
 Generate a static PNG file for final game position with numbered moves:
 
-    python .\sgf2gif.py .\20221219_Shin-Jinseo_Ke-Jie.sgf out.gif -n
+    python .\sgf2gif.py .\20221219_Shin-Jinseo_Ke-Jie.sgf out.png -n --final
